@@ -55,6 +55,8 @@ body {
     height: 30px;
     padding: 2px 12px;
     border-radius: 15px;
+    border: 2px solid cyan;
+    color: cyan;
 }
 
 button {
