@@ -39,7 +39,7 @@ body {
 .fix {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 10px;
 }
 
 .inputs {
