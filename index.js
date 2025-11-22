@@ -9,16 +9,12 @@ elForm.addEventListener("submit", (e) => {
 
   let inputValue = elForm["input"].value.trim();
 
-  if (!inputValue) return (elMessage.textContent = "Maydonni toldir");
+  if (!inputValue) return (elMessage.textContent = "Maydonni to'ldiring ! ");
 
   elMessage.textContent = "";
   elList.innerHTML += `
     <div class="item">
-          <p class="todo-text">${
-            inputValue.length > 12
-              ? inputValue.slice(0, 12).concat("...")
-              : inputValue
-          }</p>
+          <p class="todo-text"> ${ inputValue.length > 14 ? inputValue.slice(0, 14).concat("..."): inputValue } </p>
 
           <div>
             <div class="fix">
