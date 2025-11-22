@@ -1,3 +1,6 @@
+alert("Assalomu alaykum");
+alert("Dasturimizga xush kelibsiz ! ");
+
 const elForm = document.querySelector(".form");
 const elMessage = document.querySelector(".warning");
 const elClear = document.querySelector(".clear");
