@@ -6,7 +6,6 @@ const elMessage = document.querySelector(".warning");
 const elClear = document.querySelector(".clear");
 const elList = document.querySelector(".task__list");
 
-//AddEvent
 elForm.addEventListener("submit", (e) => {
   e.preventDefault(); 
 
@@ -18,7 +17,6 @@ elForm.addEventListener("submit", (e) => {
   elList.innerHTML += `
     <div class="item">
           <p class="todo-text"> ${ inputValue.length > 14 ? inputValue.slice(0, 14).concat("..."): inputValue } </p>
-
           <div>
             <div class="fix">
               <div>
@@ -36,7 +34,6 @@ elForm.addEventListener("submit", (e) => {
   elForm.reset();
 });
 
-//Clear 
 elClear.addEventListener("click", () => {
   elList.innerHTML = "";
 });
