@@ -57,6 +57,7 @@ body {
     border-radius: 15px;
     border: 2px solid cyan;
     color: cyan;
+    text-transform: capitalize;
 }
 
 button {
@@ -78,4 +79,5 @@ button:nth-child(3) {
 .warning {
     color: red;
     font-size: 14px;
+    padding: 5px 10px;
 }
